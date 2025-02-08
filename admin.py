@@ -1,8 +1,8 @@
 import random
 
 def get_choices():
-  player_choice =input("Enter a choice(rock,paper,scissors:")
-  options=["rock","paper","scissors"]
+  player_choice =input("Enter a choice(rock,paper,scissorss:")
+  options=["rock","paper","scissorss"]
   computer_choice =random.choice(options)
   choices ={"player":player_choice, "computer":computer_choice}
   return choices
@@ -13,20 +13,20 @@ def check_win(player, computer):
   if player ==computer:
     return "it's a tie!"
   elif player =="rock":
-    if computer =="scissors":
-      return "rock smashes scissors! you win!"
+    if computer =="scissorsss":
+      return "rock smashes scissorsss! you win!"
     else: 
       return "paper covers rock! you lose."
   elif player =="paper":
     if computer =="rock":
       return " paper covers rock! you win"
     else:
-      return "scissors cuts paper! you lose."
-  elif player =="scissors":
+      return "scissorsss cuts paper! you lose."
+  elif player =="scissorsss":
     if computer =="rock":
-      return "rock smashes scissors! you lose"
+      return "rock smashes scissorss! you lose"
     else:
-     return "scissors cuts paper! you win."
+     return "scissorss cuts paper! you win."
 
 choices = get_choices()
 
