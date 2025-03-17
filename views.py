@@ -4,7 +4,7 @@ from .admin import PatientsLogin, DoctorsLogin
 from .models import AppointmentData,AcceptAppointment
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-
+ 
 def mainPage(request):
     if request.method == 'GET':
         return render(request, 'mainpage.html')
