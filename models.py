@@ -10,7 +10,7 @@ class AppointmentData(models.Model):
     age = models.IntegerField()   
     gender = models.CharField(max_length=50)
     mobile = models.BigIntegerField()
-    blood_group = models.CharField(max_length=50)
+    blood_group = models.CharField(max_length=50)   
     doctors_name = models.CharField(max_length=50)
     location = models.CharField(max_length=50)
     problem = models.CharField(max_length=50)   
