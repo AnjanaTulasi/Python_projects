@@ -8,7 +8,7 @@ class DoctorsLogin(models.Model):
 class AppointmentData(models.Model):    
     patients_name = models.CharField(max_length=50)
     age = models.IntegerField()     
-    gender = models.CharField(max_length=50)
+    gender = models.CharField(max_length=50)   
     mobile = models.BigIntegerField()
     blood_group = models.CharField(max_length=50)   
     doctors_name = models.CharField(max_length=50)
