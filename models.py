@@ -13,7 +13,7 @@ class AppointmentData(models.Model):
     blood_group = models.CharField(max_length=50)
     doctors_name = models.CharField(max_length=50)
     location = models.CharField(max_length=50)
-    problem = models.CharField(max_length=50)
+    problem = models.CharField(max_length=50)   
 class AcceptAppointment(models.Model):
     date = models.DateField()
     time = models.TimeField()
