@@ -10,7 +10,7 @@ def mainPage(request):
         return render(request, 'mainpage.html')
     else:
         # Fetch credentials from POST request  
-        username_patient = request.POST.get('username')
+        username_patient = request.POST.get('username')  
         password_patient = request.POST.get('password') 
         username_doctor = request.POST.get('user')
         password_doctor = request.POST.get('pass')
