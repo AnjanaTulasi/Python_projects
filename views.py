@@ -9,7 +9,7 @@ def mainPage(request):
     if request.method == 'GET':
         return render(request, 'mainpage.html')
     else:
-        # Fetch credentials from POST request  
+        # Fetch credentials from POST request    
         username_patient = request.POST.get('username')    
         password_patient = request.POST.get('password') 
         username_doctor = request.POST.get('user')
