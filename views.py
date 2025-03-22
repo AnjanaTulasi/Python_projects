@@ -11,7 +11,7 @@ def mainPage(request):
     else:
         # Fetch credentials from POST request  
         username_patient = request.POST.get('username')
-        password_patient = request.POST.get('password')
+        password_patient = request.POST.get('password') 
         username_doctor = request.POST.get('user')
         password_doctor = request.POST.get('pass')
 
