@@ -4,7 +4,7 @@ class PatientsLogin(models.Model):
     password = models.CharField(max_length=50)
 class DoctorsLogin(models.Model):
     username = models.CharField(max_length=50) 
-    password = models.CharField(max_length=50) 
+    password = models.CharField(max_length=50)  
 class AppointmentData(models.Model):    
     patients_name = models.CharField(max_length=50)
     age = models.IntegerField()     
