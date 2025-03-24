@@ -2,7 +2,7 @@ from django.db import models
 class PatientsLogin(models.Model): 
     username = models.CharField(max_length=50)
     password = models.CharField(max_length=50)
-class DoctorsLogin(models.Model):
+class DoctorsLogin(models.Model): 
     username = models.CharField(max_length=50) 
     password = models.CharField(max_length=50)  
 class AppointmentData(models.Model):    
